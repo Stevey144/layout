@@ -26,43 +26,25 @@
             background-color:maroon;
         }
            .container .section{
-               width: 100%;
-               height: 600px;
+               width: 70%;
+               min-height: 600px;
+               float: left;
+               padding: 0 10px;
+               background-color: rgb(25, 26, 36);
+           }
+
+           .container .section article{
+                width:100%;
+               min-height: 180px;
+               background-color: rgb(162, 154, 207);
+               margin: 15px 0; 
            }
         
-           .container .section .ar{
-               width: 70%;
-               height: 200px;
-               float: left;
-               background-color: darkcyan;   
-               margin-top:10px;
-                                  
-           }
-           .container .section .arti{
-               width:70%;
-               height: 200px;
-               background-color: darkkhaki;
-               float: left;
-               margin-top: 10px;
-              
-               
-           }
-           .container .section .art{
-               width:70%;
-               height: 180px;
-               background-color: darkkhaki;
-               float: left;
-               margin-top: 10px;
-              
-               
-           }
-           .container .section .ass{
-               width: 20%;
-               height: 600px;
+           .container aside{
+               width: 30%;
+               min-height: 600px;
                float: right;
-               background-color: chocolate;
-               margin-top: 10px;
-            
+               background-color: darkcyan;                                    
            }
 
            .container  .footer{
@@ -71,21 +53,25 @@
                margin-top: 20px;
                background-color: darkolivegreen;
                clear: both;
-               
         }
 
     </style>
 </head>
 <body>
 <div class="container">
+
 <div class="header"></div>
 
 <div class="section">
-    <article class="ar"></article>
-    <article class="arti"></article>
-    <article class="art"></article>
+    <article></article>
+    <article></article>
+    <article></article>
 </div>
-<div class="ass"></div>
+
+
+<aside>
+    <!-- Some contents here -->
+</aside>
 
 
 <div class="footer"></div>
